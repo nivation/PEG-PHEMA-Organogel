@@ -1,8 +1,8 @@
 # PEG-PHEMA-Organogel
 This is a LAMMPS simulation code for simulating PEG-PHEMA organogel with Lithium Chlorides
 
-/n
----0_model_create-------
+
+**0_model_create**
 
 The input data file is not provided, but is able to create through PACKMOL:
 
@@ -14,7 +14,8 @@ Material Studio: https://www.3ds.com/products-services/biovia/products/molecular
 
 
 
----1_LAMMPS_input_code-------
+**1_LAMMPS_input_code**
+
 
 The total process is divided into 3 parts:
 
@@ -32,7 +33,7 @@ lmp_serial -in 2_Tensile.in
 
 
 
----2_analysis_code-------
+**2_analysis_code**
 
 The analyzing software for the result of simualtion is performed mainly in Visual Molecular Dynamics:
 
