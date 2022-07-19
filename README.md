@@ -1,6 +1,6 @@
 # PEG-PHEMA-Organogel
-
 This is a LAMMPS simulation code for simulating PEG-PHEMA organogel with Lithium Chlorides
+
 
 ---0_model_create-------
 
@@ -11,6 +11,7 @@ https://github.com/m3g/packmol
 Other softwares for creating initial model is also recomended:
 Winmostar: https://winmostar.com/en/
 Material Studio: https://www.3ds.com/products-services/biovia/products/molecular-modeling-simulation/biovia-materials-studio/
+
 
 
 ---1_LAMMPS_input_code-------
@@ -28,6 +29,7 @@ lmp_serial -in 1_Equilibrium.in
 (3) Tensile test using NVT deform:
 
 lmp_serial -in 2_Tensile.in
+
 
 
 ---2_analysis_code-------
@@ -60,3 +62,4 @@ vmd -dispdev text -e 2_Coordination_Bond.tcl
 (4) Ion cluster search
 
 vmd -dispdev text -e 3_Ion_cluster.tcl
+
