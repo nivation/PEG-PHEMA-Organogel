@@ -1,5 +1,6 @@
 # PEG-PHEMA-Organogel
-This is a LAMMPS simulation for simulating PEG-PHEMA organogel with Lithium Chlorides performed by Yu-Cheng Lai  
+This is a LAMMPS simulation for simulating PEG-PHEMA organogel with Lithium Chlorides performed by Yu-Cheng Lai.  
+The goal of this simualtion is to understand the effect of Lihtium Chloride ions on the mechanical properties of PEG-PHEMA organogel.
 
 ## **0_model_create**
 
