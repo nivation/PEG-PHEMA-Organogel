@@ -1,7 +1,7 @@
 # PEG-PHEMA-Organogel
 This is a LAMMPS simulation code for simulating PEG-PHEMA organogel with Lithium Chlorides
 
-\n
+/n
 ---0_model_create-------
 
 The input data file is not provided, but is able to create through PACKMOL:
